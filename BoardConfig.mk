@@ -25,3 +25,5 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/asus/flo
 TARGET_RECOVERY_FSTAB = device/asus/flo/fstab.flo
 
 include device/asus/flo/BoardConfigCommon.mk
+
+Bliss_Build_Block :=1
