@@ -3,6 +3,6 @@
    "remote": "TeamBliss-Devices",
    "repository":  "android_kernel_google_msm",
    "target_path": "kernel/google/msm",
-   "branch":      "lp5.1"
+   "revision": "lp5.1"
   }
 ]
