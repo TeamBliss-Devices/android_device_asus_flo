@@ -1,7 +1,7 @@
 [
   {
-   "remote": "TeamBliss-Devices",
-   "repository":  "android_kernel_google_msm",
+   "remote": "github",
+   "repository":  "AICP/kernel_google_msm",
    "target_path": "kernel/google/msm",
    "revision": "lp5.1"
   }
