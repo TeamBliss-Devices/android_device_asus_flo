@@ -1,8 +1,8 @@
 [
   {
    "remote": "github",
-   "repository":  "AICP/kernel_google_msm",
+   "repository":  "CyanogenMod/kernel_google_msm",
    "target_path": "kernel/google/msm",
-   "revision": "lp5.1"
+   "revision": "cm-12.1"
   }
 ]
