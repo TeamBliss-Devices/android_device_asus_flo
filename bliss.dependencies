@@ -1,7 +1,7 @@
 [
   {
    "remote": "github",
-   "repository":  " flar2/flo",
+   "repository":  "flar2/flo",
    "target_path": "kernel/google/msm",
    "revision": "ElementalX-4.00-cm"
   }
