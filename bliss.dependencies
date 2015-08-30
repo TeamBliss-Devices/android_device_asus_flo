@@ -1,7 +1,7 @@
 [
   {
    "remote": "github",
-   "repository":  "TeamBliss-Devices/android_kernel_asus_flo",
+   "repository":  "flar2/flo/tree/ElementalX-4.00-cm",
    "target_path": "kernel/google/msm",
    "revision": "lp5.1"
   }
