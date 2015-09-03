@@ -27,8 +27,8 @@ TARGET_RECOVERY_FSTAB = device/asus/flo/fstab.flo
 include device/asus/flo/BoardConfigCommon.mk
 
 # BlissPop Config Flags
-TARGET_TC_ROM := 5.1-linaro
-TARGET_TC_KERNEL := 5.1-linaro
+TARGET_TC_ROM := 4.9-linaro
+TARGET_TC_KERNEL := 4.9-linaro
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := true
