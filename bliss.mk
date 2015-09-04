@@ -20,8 +20,6 @@ PRODUCT_NAME := bliss_flo
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
-HOST_NAME := My box
-USER := Bri aka 'Patron
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:5.1.1/LMY47V/1836172:user/release-keys PRIVATE_BUILD_DESC="razor-user 5.1.1 LMY47V 1836172 release-keys"
 
