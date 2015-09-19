@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
 	device/asus/flo/init.flo.usb.rc:root/init.flo.usb.rc \
+	device/asus/flo/init.flo.power.rc:root/init.flo.power.rc \
 	device/asus/flo/ueventd.flo.rc:root/ueventd.flo.rc \
 	device/asus/flo/media_profiles.xml:system/etc/media_profiles.xml \
 	frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
@@ -132,6 +133,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.audio.handset.mic=dmic \
 	persist.audio.fluence.mode=endfire \
 	persist.audio.lowlatency.rec=false
+
+# ART
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat-flags=--no-watch-dog
 
 # Camera Configuration
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -292,6 +297,10 @@ PRODUCT_PACKAGES += \
     libnfc_nci_jni \
     NfcNci \
     Tag
+
+# IO Scheduler
+PRODUCT_PROPERTY_OVERRIDES += \
+	sys.io.scheduler=bfq
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
