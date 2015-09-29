@@ -30,5 +30,5 @@ DEVICE=flo
 PRODUCT=razor
 VERSION=kot49h
 SRCPREFIX=signed-
-BOOTLOADER=flo-04.02
+BOOTLOADER=flo-04.05
 source ../../../common/generate-factory-images-common.sh
