@@ -1,0 +1,8 @@
+[
+ {
+   "remote": "TeamBliss-Devices",
+   "repository": "android_kernel_asus_flo",
+   "target_path": "kernel/google/msm",
+   "revision": "cm-12.1"
+ }
+]
