@@ -1,8 +1,8 @@
 [
  {
-   "remote": "TeamBliss-Devices",
-   "repository": "android_kernel_asus_flo",
+   "remote": "github",
+   "repository": "flar2/flo",
    "target_path": "kernel/google/msm",
-   "revision": "cm-12.1"
+   "revision": "ElementalX-4.00"
  }
 ]
